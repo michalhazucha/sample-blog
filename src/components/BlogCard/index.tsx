@@ -4,8 +4,8 @@ import './blogcard.scss';
 import { Link } from 'react-router-dom';
 const BlogCard = ({ imageSrc }: any) => {
   return (
-    <Card className="border-0">
-      <Card.Img variant="top" src={imageSrc} />
+    <Card className="border-0 rounded-0">
+      <Card.Img variant="top" src={imageSrc} className="rounded-0" />
       <Card.Body className="d-flex  flex-column justify-content-center align-items-center">
         <Card.Text>
           <small className="text-muted">TRAVEL</small>

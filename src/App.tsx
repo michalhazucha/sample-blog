@@ -12,7 +12,7 @@ const App = () => {
   return (
     <Router>
       <Header />
-      <Container fluid>
+      <Container fluid className="p-0">
         <ScrollToTop />
         <Switch>
           <Route exact path="/" component={Home} />

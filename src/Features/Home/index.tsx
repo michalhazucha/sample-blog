@@ -12,14 +12,12 @@ const Home = () => {
       <Row>
         <Highlights />
       </Row>
-      <Row>
-        <Col md={2}></Col>
-        <Col md={8}>
-          <section className="main_blogs">
-            <MainBlogs />
-          </section>
+      <Row className="mx-1 my-5">
+        <Col sm={0} md={2}></Col>
+        <Col sm={12} md={8}>
+          <MainBlogs />
         </Col>
-        <Col md={2}></Col>
+        <Col sm={0} md={2}></Col>
       </Row>
     </Fragment>
   );

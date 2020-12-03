@@ -1,5 +1,5 @@
 import React from 'react';
-import { CardColumns } from 'react-bootstrap';
+import { CardColumns, Container } from 'react-bootstrap';
 /*Components */
 import BlogCard from '../BlogCard';
 /**Images */
