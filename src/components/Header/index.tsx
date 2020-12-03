@@ -11,16 +11,16 @@ const Header = () => {
       </Navbar.Brand>
       <Container className="mx-auto justify-content-end">
         <Nav>
-          <Nav.Link className="mr-2">
+          <Nav.Link className="mr-2 text-secondary">
             <Link to="/">Home</Link>
           </Nav.Link>
-          <Nav.Link className="mr-2">
+          <Nav.Link className="mr-2 text-secondary">
             <Link to="/blogs">About</Link>
           </Nav.Link>
-          <Nav.Link className="mr-2">
+          <Nav.Link className="mr-2 text-secondary">
             <Link to="/blogs">Blog</Link>
           </Nav.Link>
-          <Nav.Link className="mr-2">
+          <Nav.Link className="mr-2 text-secondary">
             <Link to="/blogs">Contact</Link>
           </Nav.Link>
         </Nav>

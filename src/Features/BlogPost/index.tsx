@@ -10,7 +10,7 @@ const BlogPost = () => {
         <Col md={2}></Col>
         <Col md={8}>
           <Col className="my-5">
-            <h1 className="my-5">As a Designer, I Refuse to Call People `Users`</h1>
+            <h1 className="my-5 ">As a Designer, I Refuse to Call People `Users`</h1>
             <img src={desert1} alt="desert1" />
             <p className="my-5">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam dolor quod numquam! Ducimus sequi rerum non sit voluptatibus aut, deserunt nemo tempore corrupti in adipisci commodi quasi eaque sunt, odio natus tempora, ratione dicta! Similique illum praesentium, temporibus

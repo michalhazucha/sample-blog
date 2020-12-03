@@ -11,9 +11,9 @@ import BlogPost from './Features/BlogPost';
 const App = () => {
   return (
     <Router>
-      <Header />
+      <ScrollToTop />
       <Container fluid className="p-0">
-        <ScrollToTop />
+        <Header />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/blogs" component={Blogs} />

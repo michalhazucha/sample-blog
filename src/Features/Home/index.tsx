@@ -9,9 +9,8 @@ import MainBlogs from '../../components/MainBlogs';
 const Home = () => {
   return (
     <Fragment>
-      <Row>
-        <Highlights />
-      </Row>
+      <Highlights />
+
       <Row className="mx-1 my-5">
         <Col sm={0} md={2}></Col>
         <Col sm={12} md={8}>

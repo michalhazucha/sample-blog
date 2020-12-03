@@ -1,10 +1,36 @@
 /* make the customizations */
+/*font family*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Questrial&family=Quicksand:wght@500&display=swap');
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Questrial', sans-serif;
+// font-family: 'Quicksand', sans-serif;
+.card-title{
+  font-family: 'Poppins', sans-serif ;
+  font-weight:400
+}
+h1{
+  font-family: 'Poppins', sans-serif ;
+  font-weight:bold;
+}
+/*colors*/
+$color-primary:#6df0ff;
+$color-secondary:#565750;
+$color-sucess:#bada55;
+$color-danger:#bb0a21;
+$color-info:#eec643;
+$color-light:#ffff;
+$color-dark:#131e24;
+$color-muted:#6c767c;
+
 $theme-colors: (
-  "primary": #d1dadb,
-  "sucess": #bada55,
-  "danger": #bb0a21,
-  "secondary":#474747,
-  "info":#eec643,
-  "dark":#141414,
-  "light":#fff9fb,
+  "primary": $color-primary,
+  "sucess": $color-sucess,
+  "danger":$color-danger,
+  "secondary":$color-secondary,
+  "info":$color-info,
+  "dark":$color-dark,
+  "light":$color-light,
+  "muted":$color-muted
 );
+
+@import "~bootstrap/scss/bootstrap";

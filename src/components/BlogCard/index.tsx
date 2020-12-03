@@ -14,7 +14,7 @@ const BlogCard = ({ imageSrc }: any) => {
           Charming Evening Field
           <hr />
         </Card.Title>
-        <Card.Text className="text-center">
+        <Card.Text className="text-center text-muted">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quae cum. Aut accusamus deleniti maiores ullam, cumque veniam adipisci corporis animi nemo. Nobis exercitationem tempore facilis sequi ea quos libero vero, similique voluptates ratione vitae!
         </Card.Text>
         <Card.Text>

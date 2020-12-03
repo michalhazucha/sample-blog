@@ -8,14 +8,12 @@ import img4 from '../../assets/img/pexels-gabb-tapic-3763949.jpg';
 import HighlightCard from '../HighlightCard';
 const Highlights = () => {
   return (
-    <Container fluid className="p-0 mb-5">
-      <CardGroup>
-        <HighlightCard imageSrc={img1} className="mb-0 xs border-right-0 sm border-1 text-white text-center " />
-        <HighlightCard imageSrc={img2} className="mb-0 xs border-right-0 sm border-1 text-white text-center" />
-        <HighlightCard imageSrc={img3} className="mb-0 xs border-right-0 sm border-1 text-white text-center" />
-        <HighlightCard imageSrc={img4} className="mb-0 xs border-0 text-white text-center" />
-      </CardGroup>
-    </Container>
+    <CardGroup className="mb-5">
+      <HighlightCard imageSrc={img1} className="mb-0 xs border-right-0  text-white text-center " />
+      <HighlightCard imageSrc={img2} className="mb-0 xs border-right-0 text-white text-center" />
+      <HighlightCard imageSrc={img3} className="mb-0 xs border-right-0 text-white text-center" />
+      <HighlightCard imageSrc={img4} className="mb-0 xs border-0 text-white text-center" />
+    </CardGroup>
   );
 };
 

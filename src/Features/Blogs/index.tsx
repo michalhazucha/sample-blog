@@ -5,7 +5,7 @@ const Blogs = () => {
   return (
     <Row>
       <Col md={2}></Col>
-      <Col md={8}>
+      <Col md={8} className="px-0">
         <MainBlogs />
       </Col>
       <Col md={2}></Col>
