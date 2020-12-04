@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 import './blogcard.scss';
 import { Link } from 'react-router-dom';
+
 const BlogCard = ({ imageSrc }: any) => {
   return (
     <Card className="border-0 rounded-0">

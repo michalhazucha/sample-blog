@@ -4,8 +4,10 @@ img.logo{
   height:auto;
 }
 
-a{color:$color-secondary;
-&:hover {
+a{
+  color:$color-secondary;
+  &:hover {
    color: lighten($color-secondary,20);
    text-decoration: none;
-}}
+  }
+}

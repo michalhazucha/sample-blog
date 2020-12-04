@@ -1,5 +1,5 @@
 import React from 'react';
-import { CardColumns, Container } from 'react-bootstrap';
+import { Card, CardColumns, Container } from 'react-bootstrap';
 /*Components */
 import BlogCard from '../BlogCard';
 /**Images */
@@ -16,24 +16,31 @@ import Food10 from '../../assets/img/food/food10.jpg';
 import Food11 from '../../assets/img/food/food11.jpg';
 import Food12 from '../../assets/img/food/food12.jpg';
 import Food13 from '../../assets/img/food/food13.jpg';
-
+import { Row, Col } from 'react-bootstrap';
+import ImageModal from '../ImageModal';
 const MainBlogs = () => {
   return (
-    <CardColumns>
-      <BlogCard imageSrc={Food1} />
-      <BlogCard imageSrc={Food2} />
-      <BlogCard imageSrc={Food3} />
-      <BlogCard imageSrc={Food4} />
-      <BlogCard imageSrc={Food5} />
-      <BlogCard imageSrc={Food6} />
-      <BlogCard imageSrc={Food7} />
-      <BlogCard imageSrc={Food8} />
-      <BlogCard imageSrc={Food9} />
-      <BlogCard imageSrc={Food10} />
-      <BlogCard imageSrc={Food11} />
-      <BlogCard imageSrc={Food12} />
-      <BlogCard imageSrc={Food13} />
-    </CardColumns>
+    <Row className="mx-1 my-5">
+      <Col sm={0} md={2}></Col>
+      <Col sm={12} md={8}>
+        <CardColumns>
+          <BlogCard imageSrc={Food1} />
+          <BlogCard imageSrc={Food2} />
+          <BlogCard imageSrc={Food3} />
+          <BlogCard imageSrc={Food4} />
+          <BlogCard imageSrc={Food5} />
+          <BlogCard imageSrc={Food6} />
+          <BlogCard imageSrc={Food7} />
+          <BlogCard imageSrc={Food8} />
+          <BlogCard imageSrc={Food9} />
+          <BlogCard imageSrc={Food10} />
+          <BlogCard imageSrc={Food11} />
+          <BlogCard imageSrc={Food12} />
+          <BlogCard imageSrc={Food13} />
+        </CardColumns>
+      </Col>
+      <Col sm={0} md={2}></Col>
+    </Row>
   );
 };
 export default MainBlogs;
