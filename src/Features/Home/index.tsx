@@ -10,14 +10,7 @@ const Home = () => {
   return (
     <Fragment>
       <Highlights />
-
-      <Row className="mx-1 my-5">
-        <Col sm={0} md={2}></Col>
-        <Col sm={12} md={8}>
-          <MainBlogs />
-        </Col>
-        <Col sm={0} md={2}></Col>
-      </Row>
+      <MainBlogs />
     </Fragment>
   );
 };
