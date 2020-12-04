@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/sample-blog/static/css/main.a74d61c5.chunk.css",
+    "main.js": "/sample-blog/static/js/main.40dcb5a8.chunk.js",
+    "main.js.map": "/sample-blog/static/js/main.40dcb5a8.chunk.js.map",
+    "runtime-main.js": "/sample-blog/static/js/runtime-main.cfcaf7a9.js",
+    "runtime-main.js.map": "/sample-blog/static/js/runtime-main.cfcaf7a9.js.map",
+    "static/js/2.8ffe8815.chunk.js": "/sample-blog/static/js/2.8ffe8815.chunk.js",
+    "static/js/2.8ffe8815.chunk.js.map": "/sample-blog/static/js/2.8ffe8815.chunk.js.map",
+    "static/js/3.ff886090.chunk.js": "/sample-blog/static/js/3.ff886090.chunk.js",
+    "static/js/3.ff886090.chunk.js.map": "/sample-blog/static/js/3.ff886090.chunk.js.map",
+    "index.html": "/sample-blog/index.html",
+    "static/css/main.a74d61c5.chunk.css.map": "/sample-blog/static/css/main.a74d61c5.chunk.css.map",
+    "static/js/2.8ffe8815.chunk.js.LICENSE.txt": "/sample-blog/static/js/2.8ffe8815.chunk.js.LICENSE.txt",
+    "static/media/desert1.1961becc.jpg": "/sample-blog/static/media/desert1.1961becc.jpg",
+    "static/media/desert2.12164544.jpg": "/sample-blog/static/media/desert2.12164544.jpg",
+    "static/media/food10.ed8ea821.jpg": "/sample-blog/static/media/food10.ed8ea821.jpg",
+    "static/media/food11.7fba8309.jpg": "/sample-blog/static/media/food11.7fba8309.jpg",
+    "static/media/food12.d1ab30b0.jpg": "/sample-blog/static/media/food12.d1ab30b0.jpg",
+    "static/media/food13.1a8c34b6.jpg": "/sample-blog/static/media/food13.1a8c34b6.jpg",
+    "static/media/food6.26aecf5d.jpg": "/sample-blog/static/media/food6.26aecf5d.jpg",
+    "static/media/food7.c6092500.jpg": "/sample-blog/static/media/food7.c6092500.jpg",
+    "static/media/food8.99c15958.jpg": "/sample-blog/static/media/food8.99c15958.jpg",
+    "static/media/food9.16b8cfe8.jpg": "/sample-blog/static/media/food9.16b8cfe8.jpg",
+    "static/media/logo.b831c55e.png": "/sample-blog/static/media/logo.b831c55e.png",
+    "static/media/pexels-cottonbro-4505469.7f5fe026.jpg": "/sample-blog/static/media/pexels-cottonbro-4505469.7f5fe026.jpg",
+    "static/media/pexels-cottonbro.5d052480.jpg": "/sample-blog/static/media/pexels-cottonbro.5d052480.jpg",
+    "static/media/pexels-daria-shevtsova-704569.6478c18f.jpg": "/sample-blog/static/media/pexels-daria-shevtsova-704569.6478c18f.jpg",
+    "static/media/pexels-gabb-tapic-3763949.d5332121.jpg": "/sample-blog/static/media/pexels-gabb-tapic-3763949.d5332121.jpg",
+    "static/media/pexels-markus-spiske-158285.37c60d06.jpg": "/sample-blog/static/media/pexels-markus-spiske-158285.37c60d06.jpg",
+    "static/media/pexels-pixabay-315755.4553143c.jpg": "/sample-blog/static/media/pexels-pixabay-315755.4553143c.jpg",
+    "static/media/pexels-pixabay-357573 (1).7ff2288a.jpg": "/sample-blog/static/media/pexels-pixabay-357573 (1).7ff2288a.jpg",
+    "static/media/pexels-pixabay-357573.7ff2288a.jpg": "/sample-blog/static/media/pexels-pixabay-357573.7ff2288a.jpg",
+    "static/media/pexels-snapwire-286283.c1011974.jpg": "/sample-blog/static/media/pexels-snapwire-286283.c1011974.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfcaf7a9.js",
+    "static/js/2.8ffe8815.chunk.js",
+    "static/css/main.a74d61c5.chunk.css",
+    "static/js/main.40dcb5a8.chunk.js"
+  ]
+}
