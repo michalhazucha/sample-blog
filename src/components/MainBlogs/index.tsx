@@ -17,7 +17,7 @@ import Food11 from '../../assets/img/food/food11.jpg';
 import Food12 from '../../assets/img/food/food12.jpg';
 import Food13 from '../../assets/img/food/food13.jpg';
 import { Row, Col } from 'react-bootstrap';
-import ImageModal from '../ImageModal';
+// import ImageModal from '../ImageModal';
 const MainBlogs = () => {
   return (
     <Row className="mx-1 my-5">
